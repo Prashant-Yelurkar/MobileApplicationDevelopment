@@ -29,9 +29,8 @@ public class DisplayPdf extends AppCompatActivity {
         myMap.put("frameLayout","1-tw8rXHndtxnsqXPeeOi1x6SC2dgKHiZ");
 
 //        View
-        myMap.put("textview","1-tw8rXHndtxnsqXPeeOi1x6SC2dgKHiZ");
 
-        myMap.put("allViews","10oG1N6caSn0P2g7oPfeYUwJs-v0wSJDj");
+        myMap.put("allViews","1p99zz1-KGnsd1Vwn_vhSk9aSdgjv7aXL");
         myMap.put("textview","1PFODM2rCaOgOReW3YgJlIqDvwdeIr-4w");
         myMap.put("editview","1hZ9LSWwlheM0q8A9Ve-lJTYflutwgU9S");
         myMap.put("imageview","1TwVsU-wHmXeijxUKc3P31kbTjjvacidr");
