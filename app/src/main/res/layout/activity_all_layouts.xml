@@ -19,6 +19,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
+                android:background="#FFFFFF"
                 android:src="@drawable/linear_layout"
 
                 />
@@ -30,6 +31,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
+                android:background="#FFFFFF"
                 android:src="@drawable/relative_layout" />
 
         </LinearLayout>
@@ -46,6 +48,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
+                android:background="#FFFFFF"
                 android:src="@drawable/table_layout" />
             <ImageButton
                 android:id="@+id/absolute_layout"
@@ -54,6 +57,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
+                android:background="#FFFFFF"
                 android:src="@drawable/absolute_layout" />
 
 
@@ -73,6 +77,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
+                android:background="#FFFFFF"
                 android:src="@drawable/frame_layout" />
 
 
@@ -83,6 +88,7 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="true"
                 android:scaleType="fitCenter"
+                android:background="#FFFFFF"
                 android:src="@drawable/gride_layout" />
 
         </LinearLayout>

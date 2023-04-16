@@ -7,8 +7,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.Toolbar;
 
+import com.bumptech.glide.Glide;
 import com.example.mobileapplicationdevelopment.component.elements.All_Element;
 import com.example.mobileapplicationdevelopment.component.elements.ArchitectureDiagram;
 import com.example.mobileapplicationdevelopment.component.elements.Life_Cycle;
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ImageView loader = findViewById(R.id.main);
+        Glide.with(this).load(R.drawable.mobile_application_development).into(loader);
 
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView =findViewById(R.id.navigation);

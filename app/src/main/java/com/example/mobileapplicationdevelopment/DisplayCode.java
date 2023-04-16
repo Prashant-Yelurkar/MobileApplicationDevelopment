@@ -65,6 +65,10 @@ public class DisplayCode extends AppCompatActivity {
         myMap.put("imageview_xml", "1yMV9H70Ri1YfXm880vzd0RE3-heZhndv");
         myMap.put("imagebutton_java", "1Y5dLStect2NELIWEjHGo0l9wzF05yTbS");
         myMap.put("imagebutton_xml", "1ao7zTJlOcuYA2ERfipBR4qRfBmS-3XnT");
+        myMap.put("buttonview_java", "1WiHxAYKkm-6Ts3DONz32qan2SmP6krLp");
+        myMap.put("buttonview_xml", "1vTYVj8EZqxWOGZ01L1eaHjFm6gH0hwcm");
+        myMap.put("togglebutton_java", "1bZDC1RUvzfEpOx1J8uY_NUSg8_rQfGMe");
+        myMap.put("togglebutton_xml", "1ENYTHsDxDlCpYFXV8QTzncTlKhRxQVUk");
 
 
 

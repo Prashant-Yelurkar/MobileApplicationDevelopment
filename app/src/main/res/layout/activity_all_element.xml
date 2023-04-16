@@ -83,23 +83,23 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/frame_layout"
+                    android:id="@+id/button_view"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/frame_layout" />
+                    android:src="@drawable/button_view" />
 
 
                 <ImageButton
-                    android:id="@+id/grid_layout"
+                    android:id="@+id/toggle_button"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/gride_layout" />
+                    android:src="@drawable/toggelbutton" />
 
             </LinearLayout>
         </LinearLayout>

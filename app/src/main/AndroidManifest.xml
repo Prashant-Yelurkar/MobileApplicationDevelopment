@@ -16,9 +16,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MobileApplicationDevelopment"
         tools:targetApi="31">
-        <activity
-            android:name=".Button_view"
-            android:exported="false" />
+
+
         <activity
             android:name=".DisplayCode"
             android:exported="false" />
@@ -72,7 +71,8 @@
             android:parentActivityName=".component.layouts.All_Layout" /> <!-- Elements -->
         <activity
             android:name=".component.elements.All_Element"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".component.elements.Edit_Text"
             android:exported="false"
@@ -89,6 +89,14 @@
             android:name=".component.elements.Image_Button"
             android:exported="false"
             android:parentActivityName=".component.elements.All_Element" />
+        <activity
+            android:name=".component.elements.Button_view"
+            android:exported="false"
+            android:parentActivityName=".component.elements.All_Element" />
+        <activity
+            android:name=".component.elements.Toggle_Button"
+            android:exported="false"
+            android:parentActivityName=".component.elements.All_Element"/>
     </application>
 
 </manifest>
