@@ -36,14 +36,14 @@ public class Image_Button extends AppCompatActivity {
         java.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent i = new Intent(Image_Button.this, DisplayCode.class);
-                i.putExtra("doc_name", "imageview_java");
+                i.putExtra("doc_name", "imagebutton_java");
                 startActivity(i);
             }
         });
         xml.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent i = new Intent(Image_Button.this, DisplayCode.class);
-                i.putExtra("doc_name", "imageview_xml");
+                i.putExtra("doc_name", "imagebutton_xml");
                 startActivity(i);
             }
         });
@@ -51,7 +51,7 @@ public class Image_Button extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), DisplayPdf.class);
-                i.putExtra("doc_name", "imageview");
+                i.putExtra("doc_name", "imagebutton");
                 startActivity(i);
             }
         });

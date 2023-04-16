@@ -34,6 +34,9 @@ public class DisplayPdf extends AppCompatActivity {
         myMap.put("textview","1PFODM2rCaOgOReW3YgJlIqDvwdeIr-4w");
         myMap.put("editview","1hZ9LSWwlheM0q8A9Ve-lJTYflutwgU9S");
         myMap.put("imageview","1TwVsU-wHmXeijxUKc3P31kbTjjvacidr");
+        myMap.put("imagebutton","1zvpk1M1W3X4SdenOwTp6kULe_Z0B1lMc");
+
+
 
 
 

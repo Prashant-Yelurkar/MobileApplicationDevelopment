@@ -63,6 +63,10 @@ public class DisplayCode extends AppCompatActivity {
         myMap.put("editview_xml", "1cOgpps9YvtyYGYhddSKy6kjHiMzeq9bK");
         myMap.put("imageview_java", "164S6L-P6wz2x1xX_LsPKDIhYmUkaohZM");
         myMap.put("imageview_xml", "1yMV9H70Ri1YfXm880vzd0RE3-heZhndv");
+        myMap.put("imagebutton_java", "1Y5dLStect2NELIWEjHGo0l9wzF05yTbS");
+        myMap.put("imagebutton_xml", "1ao7zTJlOcuYA2ERfipBR4qRfBmS-3XnT");
+
+
 
         final String pdfid = myMap.get(getIntent().getStringExtra("doc_name"));
         String fileUrl = "https://drive.google.com/uc?export=download&id=" + pdfid;
