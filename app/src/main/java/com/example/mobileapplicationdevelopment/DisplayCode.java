@@ -42,12 +42,12 @@ public class DisplayCode extends AppCompatActivity {
         Button copy = findViewById(R.id.copy);
         TextView code = findViewById(R.id.code);
 
-        myMap.put("linear_java", "13XbwTxuzyGsERyoFaQcGammxLlIQIxXs");
-        myMap.put("linear_xml", "16epbYNecX086aRsPX97nmJsAmOU9PHtu");
+        myMap.put("linear_java", "1mr5ZSnVfDMvzvFY6QVWvF68zFWLlGipB");
+        myMap.put("linear_xml", "1cb4tpoG9yeFJvbSc6gFvtYwx3kDUYS7j");
         myMap.put("relative_java", "1jgEZAf4k-masxSN5ssTE4yX952q1LEe9");
         myMap.put("relative_xml", "1Wmx72mcg9WnquemM6gmzn87OfF8ONy08");
-        myMap.put("absolute_java", "1ot91HcMbFlZaqshP-ci_j1kI74AWBT-H");
-        myMap.put("absolute_xml", "1poGstp-zyIpX4pmRFkhhdYhmTGl5ttzB");
+        myMap.put("absolute_java", "1-YXvgj6jn4fiCKCJIrG3lsTXlycx0ymB");
+        myMap.put("absolute_xml", "1ZOliqlbeEFs3J4OdcovTu3oaYI0LfSKd");
         myMap.put("table_java", "1PrFiTfSojI9f5F1tjf4BQci5NWfZW6qA");
         myMap.put("table_xml", "1odulAOlkWZw56rMaJDsKFFslPbP9sRJv");
         myMap.put("grid_java", "1mduvX5ugZs2UQOFcvB4iYnqcxSwLHmJt");
@@ -69,6 +69,8 @@ public class DisplayCode extends AppCompatActivity {
         myMap.put("buttonview_xml", "1vTYVj8EZqxWOGZ01L1eaHjFm6gH0hwcm");
         myMap.put("togglebutton_java", "1bZDC1RUvzfEpOx1J8uY_NUSg8_rQfGMe");
         myMap.put("togglebutton_xml", "1ENYTHsDxDlCpYFXV8QTzncTlKhRxQVUk");
+        myMap.put("checkbox_java", "1kyMwq3ib_3aG-Ys7oHs-_IByxJ7PvO5F");
+        myMap.put("checkbox_xml", "1B5esCm5dxgVUHy8ENN-xH_CUHsJMDGf_");
 
 
 

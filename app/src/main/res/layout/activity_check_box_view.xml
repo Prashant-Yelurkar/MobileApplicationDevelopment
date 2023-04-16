@@ -1,0 +1,86 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6392A8"
+    android:padding="15dp"
+   >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="CheckBox"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Choose your interests:"
+        android:textSize="24sp"
+   />
+
+    <CheckBox
+        android:id="@+id/cB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artificial Intelligence"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+       />
+
+    <CheckBox
+        android:id="@+id/cB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data science"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cB3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deep Learning"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="386dp" />
+
+    <CheckBox
+        android:id="@+id/cB4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Machine Learning"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="386dp" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="Check"
+        android:text="submit"
+        android:background="#275CCF"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        />
+    <include layout="@layout/actiivity_copy_data"></include>
+
+</LinearLayout>

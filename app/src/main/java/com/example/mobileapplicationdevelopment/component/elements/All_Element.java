@@ -11,7 +11,7 @@ import com.example.mobileapplicationdevelopment.DisplayPdf;
 import com.example.mobileapplicationdevelopment.R;
 public class All_Element extends AppCompatActivity {
 
-    ImageButton textview, editview, imageview, imagebutton ,button_view, toggle_button;
+    ImageButton textview, editview, imageview, imagebutton ,button_view, toggle_button,checkbox_view;
     Intent intent;
     Button documentation;
 
@@ -26,7 +26,7 @@ public class All_Element extends AppCompatActivity {
         imagebutton = findViewById(R.id.imagebutton);
         button_view = findViewById(R.id.button_view);
         toggle_button =  findViewById(R.id.toggle_button);
-
+        checkbox_view =  findViewById(R.id.checkbox_view);
         documentation = findViewById(R.id.documentation);
 
 
@@ -79,6 +79,14 @@ public class All_Element extends AppCompatActivity {
             }
         });
 
+        checkbox_view.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v)
+            {
+                intent = new Intent(All_Element.this,CheckBox_View.class);
+                startActivity(intent);
+            }
+        });
 
 
         documentation.setOnClickListener(new View.OnClickListener(){
