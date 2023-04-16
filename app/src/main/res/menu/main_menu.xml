@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".menu.Menu">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/layouts"
+            android:title="Layouts"
+            android:icon="@drawable/components"
+            />
+        <item
+            android:id="@+id/elements"
+            android:title="Elements"
+            android:icon="@drawable/components"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/architecture"
+            android:title="Android Architecture"
+            android:icon="@drawable/image"
+            />
+        <item
+            android:id="@+id/lifecycle"
+            android:title="Android Life Cycle"
+            android:icon="@drawable/image"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/share"
+            />
+    </group>
+</menu>

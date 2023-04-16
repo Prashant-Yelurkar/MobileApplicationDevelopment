@@ -1,0 +1,37 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#6392A8"
+android:padding="10dp">
+
+<TextView
+    android:id="@+id/imageviewt"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ImageView"
+    android:layout_margin="20dp"
+    android:textSize="25sp"
+    android:textColor="#FFFFFF"
+    android:layout_centerHorizontal="true"/>
+<ImageView
+    android:id="@+id/imageview"
+    android:layout_below="@id/imageviewt"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/image_view"/>
+<Button
+    android:id="@+id/chageImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageview"
+    android:layout_centerHorizontal="true"
+    android:text="Click to change Image src"
+    android:background="#275CCF"
+    android:padding="10dp"
+    />
+
+<include layout="@layout/actiivity_copy_data"></include>
+
+</RelativeLayout>

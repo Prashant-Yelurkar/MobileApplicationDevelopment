@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".component.elements.Text_View"
+    android:background="#6392A8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello Welcome to \n Mobile Application Development"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+    <include
+        layout="@layout/actiivity_copy_data"
+        ></include>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".component.layouts.Relative_Layout"
+    android:background="#6392A8"
+    android:padding="18dp">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Registration From"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name."
+        android:layout_marginTop="20dp"
+
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/rollno"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Roll No."
+        android:layout_marginBottom="15dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/enrollnmentno"
+        android:layout_below="@id/rollno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enrollenment No."
+        android:layout_marginBottom="15dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@id/enrollnmentno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginBottom="15dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_below="@id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:background="#275CCF"
+
+        />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_below="@id/password"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:background="#275CCF"
+        />
+
+    <TextView
+        android:layout_below="@id/cancel"
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="5"
+        android:textSize="16sp" />
+
+    <include layout="@layout/actiivity_copy_data"></include>
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.NEARBY_WIFI_DEVICES"
+        android:usesPermissionFlags="neverForLocation" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileApplicationDevelopment"
+        tools:targetApi="31" >
+
+        <activity
+            android:name=".DisplayCode"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayPdf"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".component.elements.ArchitectureDiagram"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".component.elements.Life_Cycle"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" /> <!-- ALL Layouts -->
+        <activity
+            android:name=".component.layouts.All_Layout"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".component.layouts.Linear_Layout"
+            android:exported="false"
+            android:parentActivityName=".component.layouts.All_Layout" />
+        <activity
+            android:name=".component.layouts.Relative_Layout"
+            android:exported="false"
+            android:parentActivityName=".component.layouts.All_Layout" />
+        <activity
+            android:name=".component.layouts.Frame_Layout"
+            android:exported="false"
+            android:parentActivityName=".component.layouts.All_Layout" />
+        <activity
+            android:name=".component.layouts.Grid_Layout"
+            android:exported="false"
+            android:parentActivityName=".component.layouts.All_Layout" />
+        <activity
+            android:name=".component.layouts.Table_Layout"
+            android:exported="false"
+            android:parentActivityName=".component.layouts.All_Layout" />
+        <activity
+            android:name=".component.layouts.Absolute_Layout"
+            android:exported="false"
+            android:parentActivityName=".component.layouts.All_Layout" /> <!-- Elements -->
+        <activity
+            android:name=".component.elements.All_Element"
+            android:exported="false" />
+        <activity
+            android:name=".component.elements.Edit_Text"
+            android:exported="false"
+            android:parentActivityName=".component.elements.All_Element"/>
+        <activity
+            android:name=".component.elements.Text_View"
+            android:exported="false"
+            android:parentActivityName=".component.elements.All_Element"/>
+        <activity
+            android:name=".component.elements.Image_View"
+            android:exported="false"
+            android:parentActivityName=".component.elements.All_Element"/>
+        <activity
+            android:name=".component.elements.Image_Button"
+            android:exported="false"
+            android:parentActivityName=".component.elements.All_Element"/>
+    </application>
+
+</manifest>
