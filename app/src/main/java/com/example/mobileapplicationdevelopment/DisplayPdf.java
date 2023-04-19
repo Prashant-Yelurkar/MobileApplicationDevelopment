@@ -39,6 +39,10 @@ public class DisplayPdf extends AppCompatActivity {
         myMap.put("togglebutton","1DZHv7QmytfrpGwS1mUvbfaBHje4XQxWz");
         myMap.put("checkbox","1V2Xuob2nJ8Q5jz3w4aSFjDZ4A3199qXX");
 
+// life cycle
+        myMap.put("lifecycle","1VCpoids8wPfaOP15BKmTFXwIgAMlZmEU");
+//artchitucture
+        myMap.put("architecture","1n8Aa2OZ4vi6b4r5M1LT5c_3CUodSqVb2");
 
 
 

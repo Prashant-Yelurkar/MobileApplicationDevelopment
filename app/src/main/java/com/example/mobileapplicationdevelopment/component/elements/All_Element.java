@@ -11,7 +11,7 @@ import com.example.mobileapplicationdevelopment.DisplayPdf;
 import com.example.mobileapplicationdevelopment.R;
 public class All_Element extends AppCompatActivity {
 
-    ImageButton textview, editview, imageview, imagebutton ,button_view, toggle_button,checkbox_view;
+    ImageButton textview, editview, imageview, imagebutton ,button_view, toggle_button,checkbox_view, datepicker;
     Intent intent;
     Button documentation;
 
@@ -27,6 +27,7 @@ public class All_Element extends AppCompatActivity {
         button_view = findViewById(R.id.button_view);
         toggle_button =  findViewById(R.id.toggle_button);
         checkbox_view =  findViewById(R.id.checkbox_view);
+        datepicker = findViewById(R.id.datepicker);
         documentation = findViewById(R.id.documentation);
 
 
@@ -84,6 +85,15 @@ public class All_Element extends AppCompatActivity {
             public void onClick(View v)
             {
                 intent = new Intent(All_Element.this,CheckBox_View.class);
+                startActivity(intent);
+            }
+        });
+
+        datepicker.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v)
+            {
+                intent = new Intent(All_Element.this,Date_Picker.class);
                 startActivity(intent);
             }
         });
